@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgrammeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-82dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="347dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="44dp"
+        android:background="#E18BC34A"
+        android:text="IMC inférieur à 18 (Sous-poids) : Conseils généraux : Priorisez des repas fréquents et équilibrés. Optez pour des aliments riches en nutriments, tels que les protéines maigres, les fruits, les légumes et les grains entiers. Incluez des sources saines de graisses, comme les avocats, les noix et l'huile d'olive."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="341dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="44dp"
+        android:background="#D72196F3"
+        android:text="IMC entre 18 et 25 (Normal) : Conseils généraux : Continuez à manger une variété d'aliments pour assurer un apport équilibré en nutriments. Incluez des protéines maigres, des fruits, des légumes, des céréales complètes et des produits laitiers. Modérez votre consommation de sucres ajoutés et de gras saturés."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="330dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="40dp"
+        android:background="#86FF0000"
+        android:text="IMC supérieur à 25 (Surpoids ou Obèse) : Conseils généraux : Adoptez un régime équilibré avec des portions contrôlées. Priorisez les aliments riches en fibres, comme les fruits, les légumes et les grains entiers, pour favoriser la satiété. Limitez la consommation d'aliments riches en calories vides, comme les boissons sucrées et les collations malsaines. Intégrez l'exercice physique régulier dans votre routine quotidienne."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="348dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="344dp"
+        android:background="#7EE91E63"
+        android:text="Consultation professionnelle : Recommandation générale : Consultez un professionnel de la santé ou un nutritionniste pour des conseils personnalisés. Des recommandations spécifiques peuvent être nécessaires en fonction de la santé individuelle, des préférences alimentaires et des objectifs."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#009688"
+        android:text="RETOUR"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
